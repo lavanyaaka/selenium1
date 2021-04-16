@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="Practise.SeleniumProject.TitleValidation"/>
+      <class name="Practise.SeleniumProject.FlightBookingPage"/>
+      <class name="Practise.SeleniumProject.URLValidation"/>
+      <class name="Practise.SeleniumProject.LoginPage"/>
+      <class name="Practise.SeleniumProject.RadioBtnValidation"/>
+      <class name="Practise.SeleniumProject.DropDownValidation"/>
+    </classes>
+  </test>
+</suite> 
